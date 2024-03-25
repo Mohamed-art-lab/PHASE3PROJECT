@@ -10,7 +10,6 @@ class Task(Base):
     id = Column(Integer, primary_key=True)
     description = Column(String)
 
-# Create database engine and session
 engine = create_engine('sqlite:///todo.db')
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
