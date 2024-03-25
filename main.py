@@ -1,5 +1,5 @@
 import sys
-from cli import CLI
+from todo.cli import CLI
 
 def main():
     cli = CLI()

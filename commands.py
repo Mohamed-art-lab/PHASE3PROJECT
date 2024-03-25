@@ -1,4 +1,4 @@
-from models import Session, Task
+from todo.models import Session, Task
 
 class Commands:
     def add(self, args):
